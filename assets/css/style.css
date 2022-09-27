@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+h1{
+    padding: 15px 10px;
+}
+
+p{
+    padding: 15px 10px;
+}
+
+section {
+    font-size: 1.5rem;
+    border: 5px solid #000000;
+    text-decoration: none;
+    list-style: none;
+    padding: 15px 10px;
+    margin: 15px 10px;
+}
+
+section ul {
+    padding-inline-start: 1.2em;
+}
+
+section ul li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+section ul li:nth-of-type(1) ul li:nth-of-type(1) ul {
+    list-style: "🐶";
+}
+
+section ul li:nth-of-type(1) ul li:nth-of-type(2) ul {
+    list-style: "🐱";
+}
+
+section ul li:nth-of-type(2) ul li ul {
+    list-style: "🦜";
+}
+
+section ul li:nth-of-type(3) ul li:nth-of-type(1) ul {
+    list-style: "🐍";
+}
+
+section ul li:nth-of-type(3) ul li:nth-of-type(2) ul {
+    list-style: "🦎";
+}
